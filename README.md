@@ -1,7 +1,7 @@
 # Python-Discord-Token-Grabber
 
 
-I don't know who the creator is if you have credit or open a way out with evidence 
+I don't know who the creator is if you have credit open an issue with evidence 
 
 ## How to compile(SECURED)
 
